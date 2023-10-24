@@ -19,7 +19,7 @@ jobs:
           server:  ${{ secrets.GITF }}
           username: ${{ secrets.GITU }}
           password: ${{ secrets.GITP }}
-          server-dir: beda/
+          server-dir: ./
           log-level: verbose
           port: 21
           dry-run: false
