@@ -19,5 +19,6 @@ jobs:
           server:  ${{ secrets.GITF }}
           username: ${{ secrets.GITU }}
           password: ${{ secrets.GITP }}
+          server-dir: public_html/beda
           log-level: verbose
           dry-run: true
