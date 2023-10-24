@@ -19,4 +19,5 @@ jobs:
           server:  ${{ secrets.GITF }}
           username: ${{ secrets.GITU }}
           password: ${{ secrets.GITP }}
-          local-dir: ./
+          log-level: verbose
+          dry-run: true
