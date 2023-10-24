@@ -22,4 +22,4 @@ jobs:
           server-dir: beda/
           log-level: verbose
           port: 21
-          dry-run: true
+          dry-run: false
