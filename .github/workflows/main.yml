@@ -21,6 +21,5 @@ jobs:
           password: ${{ secrets.GITP }}
           server-dir: beda/
           log-level: verbose
-          protocol: ftps
           port: 21
           dry-run: true
