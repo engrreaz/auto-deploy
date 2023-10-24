@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-
 jobs:
   FTP-Deploy-Action:
     name: 🎉 Deploy
@@ -15,9 +14,8 @@ jobs:
         with:
           fetch-depth: 2
       - name: 📂 Sync folders and files to the server
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.2
         with:
-          server:  ${{ secrets.GITF }}
-          username: ${{ secrets.GITU }}
-          password: ${{ secrets.GITP }}
-          dry-run: false
+          server:  ftp.eimbox.com
+          username: eimbox@eimbox.com
+          password: @Rdno1977@@
