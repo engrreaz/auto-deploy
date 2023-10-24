@@ -19,4 +19,4 @@ jobs:
           server:  ${{ secrets.GITF }}
           username: ${{ secrets.GITU }}
           password: ${{ secrets.GITP }}
-          dry-run: true
+          dry-run: false
