@@ -20,3 +20,4 @@ jobs:
           username: eimbox@eimbox.com
           password: ${{ secrets.GITP }}
           server-dir: /beda/
+          log-level: verbose
