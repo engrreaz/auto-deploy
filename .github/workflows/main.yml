@@ -14,8 +14,9 @@ jobs:
         with:
           fetch-depth: 2
       - name: 📂 Sync folders and files to the server
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.3
+        uses: SamKirkland/FTP-Deploy-Action@v4.0.0
         with:
           server:  eimbox.com
           username: eimbox@eimbox.com
           password: ${{ secrets.GITP }}
+          server-dir: /beda/
