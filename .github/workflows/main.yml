@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: 🚚 Get latest code FROM REPO
-        uses: actions/checkout@v2.1.0
+        uses: actions/checkout@v3
         with:
           fetch-depth: 2
       - name: 📂 Sync folders and files to the server
@@ -24,4 +24,5 @@ jobs:
           state-name: .ftp-deploy-sync-state.json
           port: 21
           dry-run: false
+          dangerous-clean-slate: true
           timeout: 60000
