@@ -14,8 +14,8 @@ jobs:
         with:
           fetch-depth: 2
       - name: 📂 Sync folders and files to the server
-        uses: SamKirkland/FTP-Deploy-Action@v3.1.1
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.3
         with:
-          ftp-server:  eimbox.com
-          ftp-username: eimbox@eimbox.com
-          ftp-password: ${{ secrets.GITP }}
+          server:  eimbox.com
+          username: eimbox@eimbox.com
+          password: ${{ secrets.GITP }}
