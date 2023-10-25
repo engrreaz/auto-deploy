@@ -19,5 +19,7 @@ jobs:
           server:  eimbox.com
           username: eimbox@eimbox.com
           password: ${{ secrets.GITP }}
-          server-dir: /beda/
+          server-dir: public_html/beda/
           log-level: verbose
+          state-name: public_html/ftp-deploy-sync-state.json
+          port: 21
