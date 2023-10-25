@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🚚 Get latest code
+      - name: 🚚 Get latest code FROM REPO
         uses: actions/checkout@v2.1.0
         with:
           fetch-depth: 2
