@@ -23,4 +23,5 @@ jobs:
           log-level: verbose
           state-name: .ftp-deploy-sync-state.json
           port: 21
-          dry-run: true
+          dry-run: false
+          timeout: 60000
